@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B1150061C5F896E0048245B /* KLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1150051C5F896E0048245B /* KLTheme.m */; };
+		6B18FAB01C5A2B8D008B218B /* KLGlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B18FAAF1C5A2B8D008B218B /* KLGlobalState.m */; };
+		6B18FAB31C5A2D0B008B218B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18FAB21C5A2D0B008B218B /* Foundation.framework */; };
+		6B18FAB51C5A2D15008B218B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18FAB41C5A2D15008B218B /* CoreGraphics.framework */; };
+		6B18FAB71C5A2D24008B218B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18FAB61C5A2D24008B218B /* UIKit.framework */; };
+		6B18FAB91C5A2D31008B218B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18FAB81C5A2D31008B218B /* SpriteKit.framework */; };
+		6BFF0F4B1C5A147500E6AC2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F4A1C5A147500E6AC2D /* main.m */; };
+		6BFF0F4E1C5A147500E6AC2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F4D1C5A147500E6AC2D /* AppDelegate.m */; };
+		6BFF0F541C5A147500E6AC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFF0F521C5A147500E6AC2D /* Main.storyboard */; };
+		6BFF0F561C5A147500E6AC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFF0F551C5A147500E6AC2D /* Assets.xcassets */; };
+		6BFF0F591C5A147500E6AC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFF0F571C5A147500E6AC2D /* LaunchScreen.storyboard */; };
+		6BFF0F621C5A151500E6AC2D /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F611C5A151500E6AC2D /* KLViewController.m */; };
+		6BFF0F661C5A15DC00E6AC2D /* KLGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F651C5A15DC00E6AC2D /* KLGridView.m */; };
+		6BFF0F691C5A15EB00E6AC2D /* KLScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F681C5A15EB00E6AC2D /* KLScoreView.m */; };
+		6BFF0F6D1C5A167400E6AC2D /* KLOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F6C1C5A167400E6AC2D /* KLOverlay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B1150041C5F896E0048245B /* KLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTheme.h; sourceTree = "<group>"; };
+		6B1150051C5F896E0048245B /* KLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTheme.m; sourceTree = "<group>"; };
+		6B18FAAD1C5A2B69008B218B /* KLPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLPosition.h; sourceTree = "<group>"; };
+		6B18FAAE1C5A2B8D008B218B /* KLGlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGlobalState.h; sourceTree = "<group>"; };
+		6B18FAAF1C5A2B8D008B218B /* KLGlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLGlobalState.m; sourceTree = "<group>"; };
+		6B18FAB21C5A2D0B008B218B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B18FAB41C5A2D15008B218B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B18FAB61C5A2D24008B218B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B18FAB81C5A2D31008B218B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6BFF0F461C5A147500E6AC2D /* KLPractise2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLPractise2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFF0F4A1C5A147500E6AC2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BFF0F4C1C5A147500E6AC2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BFF0F4D1C5A147500E6AC2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BFF0F531C5A147500E6AC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BFF0F551C5A147500E6AC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BFF0F581C5A147500E6AC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BFF0F5A1C5A147500E6AC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFF0F601C5A151500E6AC2D /* KLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
+		6BFF0F611C5A151500E6AC2D /* KLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
+		6BFF0F641C5A15DC00E6AC2D /* KLGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGridView.h; sourceTree = "<group>"; };
+		6BFF0F651C5A15DC00E6AC2D /* KLGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLGridView.m; sourceTree = "<group>"; };
+		6BFF0F671C5A15EB00E6AC2D /* KLScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLScoreView.h; sourceTree = "<group>"; };
+		6BFF0F681C5A15EB00E6AC2D /* KLScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLScoreView.m; sourceTree = "<group>"; };
+		6BFF0F6B1C5A167400E6AC2D /* KLOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLOverlay.h; sourceTree = "<group>"; };
+		6BFF0F6C1C5A167400E6AC2D /* KLOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLOverlay.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BFF0F431C5A147500E6AC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B18FAB91C5A2D31008B218B /* SpriteKit.framework in Frameworks */,
+				6B18FAB71C5A2D24008B218B /* UIKit.framework in Frameworks */,
+				6B18FAB51C5A2D15008B218B /* CoreGraphics.framework in Frameworks */,
+				6B18FAB31C5A2D0B008B218B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1150071C5F89760048245B /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				6B1150041C5F896E0048245B /* KLTheme.h */,
+				6B1150051C5F896E0048245B /* KLTheme.m */,
+			);
+			name = Appearance;
+			sourceTree = "<group>";
+		};
+		6B18FAB11C5A2B96008B218B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				6B18FAAD1C5A2B69008B218B /* KLPosition.h */,
+				6B18FAAE1C5A2B8D008B218B /* KLGlobalState.h */,
+				6B18FAAF1C5A2B8D008B218B /* KLGlobalState.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		6B18FABA1C5A2D39008B218B /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				6B18FAB81C5A2D31008B218B /* SpriteKit.framework */,
+				6B18FAB61C5A2D24008B218B /* UIKit.framework */,
+				6B18FAB41C5A2D15008B218B /* CoreGraphics.framework */,
+				6B18FAB21C5A2D0B008B218B /* Foundation.framework */,
+			);
+			name = framework;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6BFF0F3D1C5A147500E6AC2D = {
+			isa = PBXGroup;
+			children = (
+				6BFF0F481C5A147500E6AC2D /* KLPractise2048 */,
+				6BFF0F471C5A147500E6AC2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BFF0F471C5A147500E6AC2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF0F461C5A147500E6AC2D /* KLPractise2048.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFF0F481C5A147500E6AC2D /* KLPractise2048 */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF0F4C1C5A147500E6AC2D /* AppDelegate.h */,
+				6BFF0F4D1C5A147500E6AC2D /* AppDelegate.m */,
+				6BFF0F521C5A147500E6AC2D /* Main.storyboard */,
+				6BFF0F631C5A155300E6AC2D /* Controller */,
+				6BFF0F6A1C5A15F400E6AC2D /* View */,
+				6B18FAB11C5A2B96008B218B /* Global */,
+				6B1150071C5F89760048245B /* Appearance */,
+				6BFF0F571C5A147500E6AC2D /* LaunchScreen.storyboard */,
+				6BFF0F551C5A147500E6AC2D /* Assets.xcassets */,
+				6BFF0F5A1C5A147500E6AC2D /* Info.plist */,
+				6B18FABA1C5A2D39008B218B /* framework */,
+				6BFF0F491C5A147500E6AC2D /* Supporting Files */,
+			);
+			path = KLPractise2048;
+			sourceTree = "<group>";
+		};
+		6BFF0F491C5A147500E6AC2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF0F4A1C5A147500E6AC2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BFF0F631C5A155300E6AC2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF0F601C5A151500E6AC2D /* KLViewController.h */,
+				6BFF0F611C5A151500E6AC2D /* KLViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6BFF0F6A1C5A15F400E6AC2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF0F641C5A15DC00E6AC2D /* KLGridView.h */,
+				6BFF0F651C5A15DC00E6AC2D /* KLGridView.m */,
+				6BFF0F671C5A15EB00E6AC2D /* KLScoreView.h */,
+				6BFF0F681C5A15EB00E6AC2D /* KLScoreView.m */,
+				6BFF0F6B1C5A167400E6AC2D /* KLOverlay.h */,
+				6BFF0F6C1C5A167400E6AC2D /* KLOverlay.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BFF0F451C5A147500E6AC2D /* KLPractise2048 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFF0F5D1C5A147500E6AC2D /* Build configuration list for PBXNativeTarget "KLPractise2048" */;
+			buildPhases = (
+				6BFF0F421C5A147500E6AC2D /* Sources */,
+				6BFF0F431C5A147500E6AC2D /* Frameworks */,
+				6BFF0F441C5A147500E6AC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLPractise2048;
+			productName = KLPractise2048;
+			productReference = 6BFF0F461C5A147500E6AC2D /* KLPractise2048.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BFF0F3E1C5A147500E6AC2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeonKang;
+				TargetAttributes = {
+					6BFF0F451C5A147500E6AC2D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6BFF0F411C5A147500E6AC2D /* Build configuration list for PBXProject "KLPractise2048" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BFF0F3D1C5A147500E6AC2D;
+			productRefGroup = 6BFF0F471C5A147500E6AC2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BFF0F451C5A147500E6AC2D /* KLPractise2048 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BFF0F441C5A147500E6AC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFF0F591C5A147500E6AC2D /* LaunchScreen.storyboard in Resources */,
+				6BFF0F561C5A147500E6AC2D /* Assets.xcassets in Resources */,
+				6BFF0F541C5A147500E6AC2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BFF0F421C5A147500E6AC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFF0F621C5A151500E6AC2D /* KLViewController.m in Sources */,
+				6B18FAB01C5A2B8D008B218B /* KLGlobalState.m in Sources */,
+				6BFF0F4E1C5A147500E6AC2D /* AppDelegate.m in Sources */,
+				6BFF0F691C5A15EB00E6AC2D /* KLScoreView.m in Sources */,
+				6BFF0F6D1C5A167400E6AC2D /* KLOverlay.m in Sources */,
+				6BFF0F4B1C5A147500E6AC2D /* main.m in Sources */,
+				6B1150061C5F896E0048245B /* KLTheme.m in Sources */,
+				6BFF0F661C5A15DC00E6AC2D /* KLGridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BFF0F521C5A147500E6AC2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFF0F531C5A147500E6AC2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BFF0F571C5A147500E6AC2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFF0F581C5A147500E6AC2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BFF0F5B1C5A147500E6AC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BFF0F5C1C5A147500E6AC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BFF0F5E1C5A147500E6AC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLPractise2048/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kl.KLPractise2048;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BFF0F5F1C5A147500E6AC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLPractise2048/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kl.KLPractise2048;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BFF0F411C5A147500E6AC2D /* Build configuration list for PBXProject "KLPractise2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFF0F5B1C5A147500E6AC2D /* Debug */,
+				6BFF0F5C1C5A147500E6AC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFF0F5D1C5A147500E6AC2D /* Build configuration list for PBXNativeTarget "KLPractise2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFF0F5E1C5A147500E6AC2D /* Debug */,
+				6BFF0F5F1C5A147500E6AC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BFF0F3E1C5A147500E6AC2D /* Project object */;
+}
