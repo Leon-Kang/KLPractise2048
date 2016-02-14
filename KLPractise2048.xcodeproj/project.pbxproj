@@ -13,6 +13,13 @@
 		6B18FAB51C5A2D15008B218B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18FAB41C5A2D15008B218B /* CoreGraphics.framework */; };
 		6B18FAB71C5A2D24008B218B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18FAB61C5A2D24008B218B /* UIKit.framework */; };
 		6B18FAB91C5A2D31008B218B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18FAB81C5A2D31008B218B /* SpriteKit.framework */; };
+		6BDD7D581C6F204F008C199C /* KLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD7D571C6F204F008C199C /* KLSettingViewController.m */; };
+		6BDD7D5B1C6F2AB2008C199C /* KLSettingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD7D5A1C6F2AB2008C199C /* KLSettingDetailViewController.m */; };
+		6BDD7D5E1C6F3BC6008C199C /* KLGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD7D5D1C6F3BC6008C199C /* KLGrid.m */; };
+		6BDD7D621C6F3BF0008C199C /* KLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD7D611C6F3BF0008C199C /* KLCell.m */; };
+		6BDD7D651C6F3C00008C199C /* KLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD7D641C6F3C00008C199C /* KLScene.m */; };
+		6BDD7D681C6F3C15008C199C /* KLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD7D671C6F3C15008C199C /* KLTile.m */; };
+		6BDD7D6B1C6F3C37008C199C /* KLGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD7D6A1C6F3C37008C199C /* KLGameManager.m */; };
 		6BFF0F4B1C5A147500E6AC2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F4A1C5A147500E6AC2D /* main.m */; };
 		6BFF0F4E1C5A147500E6AC2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF0F4D1C5A147500E6AC2D /* AppDelegate.m */; };
 		6BFF0F541C5A147500E6AC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFF0F521C5A147500E6AC2D /* Main.storyboard */; };
@@ -34,6 +41,20 @@
 		6B18FAB41C5A2D15008B218B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6B18FAB61C5A2D24008B218B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6B18FAB81C5A2D31008B218B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6BDD7D561C6F204F008C199C /* KLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSettingViewController.h; sourceTree = "<group>"; };
+		6BDD7D571C6F204F008C199C /* KLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSettingViewController.m; sourceTree = "<group>"; };
+		6BDD7D591C6F2AB2008C199C /* KLSettingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSettingDetailViewController.h; sourceTree = "<group>"; };
+		6BDD7D5A1C6F2AB2008C199C /* KLSettingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSettingDetailViewController.m; sourceTree = "<group>"; };
+		6BDD7D5C1C6F3BC6008C199C /* KLGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGrid.h; sourceTree = "<group>"; };
+		6BDD7D5D1C6F3BC6008C199C /* KLGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLGrid.m; sourceTree = "<group>"; };
+		6BDD7D601C6F3BF0008C199C /* KLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCell.h; sourceTree = "<group>"; };
+		6BDD7D611C6F3BF0008C199C /* KLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCell.m; sourceTree = "<group>"; };
+		6BDD7D631C6F3C00008C199C /* KLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLScene.h; sourceTree = "<group>"; };
+		6BDD7D641C6F3C00008C199C /* KLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLScene.m; sourceTree = "<group>"; };
+		6BDD7D661C6F3C15008C199C /* KLTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTile.h; sourceTree = "<group>"; };
+		6BDD7D671C6F3C15008C199C /* KLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTile.m; sourceTree = "<group>"; };
+		6BDD7D691C6F3C37008C199C /* KLGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGameManager.h; sourceTree = "<group>"; };
+		6BDD7D6A1C6F3C37008C199C /* KLGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLGameManager.m; sourceTree = "<group>"; };
 		6BFF0F461C5A147500E6AC2D /* KLPractise2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLPractise2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFF0F4A1C5A147500E6AC2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BFF0F4C1C5A147500E6AC2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +119,30 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		6BDD7D5F1C6F3BCC008C199C /* Sprite Kit */ = {
+			isa = PBXGroup;
+			children = (
+				6BDD7D631C6F3C00008C199C /* KLScene.h */,
+				6BDD7D641C6F3C00008C199C /* KLScene.m */,
+				6BDD7D5C1C6F3BC6008C199C /* KLGrid.h */,
+				6BDD7D5D1C6F3BC6008C199C /* KLGrid.m */,
+				6BDD7D601C6F3BF0008C199C /* KLCell.h */,
+				6BDD7D611C6F3BF0008C199C /* KLCell.m */,
+				6BDD7D661C6F3C15008C199C /* KLTile.h */,
+				6BDD7D671C6F3C15008C199C /* KLTile.m */,
+			);
+			name = "Sprite Kit";
+			sourceTree = "<group>";
+		};
+		6BDD7D6C1C6F3C3C008C199C /* State */ = {
+			isa = PBXGroup;
+			children = (
+				6BDD7D691C6F3C37008C199C /* KLGameManager.h */,
+				6BDD7D6A1C6F3C37008C199C /* KLGameManager.m */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
 		6BFF0F3D1C5A147500E6AC2D = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +169,8 @@
 				6BFF0F6A1C5A15F400E6AC2D /* View */,
 				6B18FAB11C5A2B96008B218B /* Global */,
 				6B1150071C5F89760048245B /* Appearance */,
+				6BDD7D5F1C6F3BCC008C199C /* Sprite Kit */,
+				6BDD7D6C1C6F3C3C008C199C /* State */,
 				6BFF0F571C5A147500E6AC2D /* LaunchScreen.storyboard */,
 				6BFF0F551C5A147500E6AC2D /* Assets.xcassets */,
 				6BFF0F5A1C5A147500E6AC2D /* Info.plist */,
@@ -146,6 +193,10 @@
 			children = (
 				6BFF0F601C5A151500E6AC2D /* KLViewController.h */,
 				6BFF0F611C5A151500E6AC2D /* KLViewController.m */,
+				6BDD7D561C6F204F008C199C /* KLSettingViewController.h */,
+				6BDD7D571C6F204F008C199C /* KLSettingViewController.m */,
+				6BDD7D591C6F2AB2008C199C /* KLSettingDetailViewController.h */,
+				6BDD7D5A1C6F2AB2008C199C /* KLSettingDetailViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -233,14 +284,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDD7D681C6F3C15008C199C /* KLTile.m in Sources */,
 				6BFF0F621C5A151500E6AC2D /* KLViewController.m in Sources */,
+				6BDD7D651C6F3C00008C199C /* KLScene.m in Sources */,
+				6BDD7D5E1C6F3BC6008C199C /* KLGrid.m in Sources */,
+				6BDD7D621C6F3BF0008C199C /* KLCell.m in Sources */,
 				6B18FAB01C5A2B8D008B218B /* KLGlobalState.m in Sources */,
 				6BFF0F4E1C5A147500E6AC2D /* AppDelegate.m in Sources */,
+				6BDD7D5B1C6F2AB2008C199C /* KLSettingDetailViewController.m in Sources */,
+				6BDD7D6B1C6F3C37008C199C /* KLGameManager.m in Sources */,
 				6BFF0F691C5A15EB00E6AC2D /* KLScoreView.m in Sources */,
 				6BFF0F6D1C5A167400E6AC2D /* KLOverlay.m in Sources */,
 				6BFF0F4B1C5A147500E6AC2D /* main.m in Sources */,
 				6B1150061C5F896E0048245B /* KLTheme.m in Sources */,
 				6BFF0F661C5A15DC00E6AC2D /* KLGridView.m in Sources */,
+				6BDD7D581C6F204F008C199C /* KLSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

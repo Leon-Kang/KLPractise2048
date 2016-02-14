@@ -5,9 +5,10 @@
 //  Created by 康梁 on 16/1/28.
 //  Copyright © 2016年 LeonKang. All rights reserved.
 //
-
 #ifndef KLPractise2048_KLPosition_h
 #define KLPractise2048_KLPosition_h
+
+#import <CoreGraphics/CoreGraphics.h>
 
 typedef struct Position {
     NSInteger x;

@@ -7,15 +7,36 @@
 //
 
 #import "KLGridView.h"
+#import "KLGlobalState.h"
 
 @implementation KLGridView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor = [GSTATE scoreBoardColor];
+        self.layer.cornerRadius = GSTATE.cornerRadius;
+        self.layer.masksToBounds = YES;
+    }
+    return self;
 }
-*/
+
+- (instancetype)init {
+    NSInteger side = GSTATE.dimension * (GSTATE.tileSize + GSTATE.borderWidth) + GSTATE.borderWidth;
+    CGFloat verticalOffset = [[UIScreen mainScreen] bounds].size.height - GSTATE.verticalOffset;
+    return [self initWithFrame:CGRectMake(GSTATE.horizontalOffset, verticalOffset - side, side, side)];
+}
+
+
++ (UIImage *)gridImageWithGrid:(KLGrid *)grid {
+    UIView *backgroundView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    backgroundView.backgroundColor = GSTATE.backgroundColor;
+    
+    KLGridView *view = [[KLGridView alloc] init];
+    [backgroundView addSubview:view];
+    
+    [grid ]
+}
+
 
 @end

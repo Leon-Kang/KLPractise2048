@@ -25,7 +25,7 @@ typedef NS_ENUM(NSInteger, KLGameType) {
 @property (nonatomic, readonly) NSInteger dimension;
 @property (nonatomic, readonly) NSInteger winningLevel;
 
-@property (nonatomic, readonly) NSInteger titleSize;
+@property (nonatomic, readonly) NSInteger tileSize;
 @property (nonatomic, readonly) NSInteger borderWidth;
 @property (nonatomic, readonly) NSInteger cornerRadius;
 

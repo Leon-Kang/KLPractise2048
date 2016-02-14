@@ -73,12 +73,12 @@
     self.needRefresh = NO;
 }
 
-- (NSInteger)titleSize {
+- (NSInteger)tileSize {
     return self.dimension <= 4 ? 66 : 56;
 }
 
 - (NSInteger)horizontalOffset {
-    CGFloat width = self.dimension * (self.titleSize + self.borderWidth) + self.borderWidth;
+    CGFloat width = self.dimension * (self.tileSize + self.borderWidth) + self.borderWidth;
     return ([UIScreen mainScreen].bounds.size.width - width) / 2;
 }
 

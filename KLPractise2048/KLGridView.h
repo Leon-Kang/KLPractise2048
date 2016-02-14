@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class KLGrid;
+
 @interface KLGridView : UIView
+
++ (UIImage *)gridImageWithGrid:(KLGrid *)grid;
+
++ (UIImage *)gridImageWithOverlay;
 
 @end
