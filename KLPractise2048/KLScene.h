@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SpriteKit/SpriteKit.h>
 
-@interface KLScene : NSObject
+@class KLViewController;
+@class KLGrid;
+
+@interface KLScene : SKScene
+
+@property (nonatomic, weak) KLViewController *controller;
+
+- (void)startNewGame;
+
+- (void)loadBoardWithGrid:(KLGrid *)grid;
 
 @end

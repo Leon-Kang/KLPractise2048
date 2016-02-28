@@ -7,7 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+@class KLScene;
+@class KLGrid;
+
+typedef NS_ENUM(NSInteger, KLDirection) {
+    KLDirectionUp,
+    KLDirectionLeft,
+    KLDirectionDown,
+    KLDirectionRight
+};
 
 @interface KLGameManager : NSObject
+
+- (void)startNewSessionWithScene:(KLScene *)scene;
+
+- (void)moveToDirection:(KLDirection)direction;
 
 @end
