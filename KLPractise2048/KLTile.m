@@ -150,7 +150,7 @@ typedef void (^KLBlock)();
 }
 
 - (void)moveToCell:(KLCell *)cell {
-    [self.pendingActions addObject:[SKAction moveTo:[GSTATE locationOfPosition:cell.position] duration:GSTATE.animationDuration]];
+    [_pendingActions addObject:[SKAction moveTo:[GSTATE locationOfPosition:cell.position] duration:GSTATE.animationDuration]];
     self.cell.tile = nil;
     cell.tile = self;
 }

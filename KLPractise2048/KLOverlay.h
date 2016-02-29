@@ -10,4 +10,10 @@
 
 @interface KLOverlay : UIView
 
+@property (nonatomic, weak) IBOutlet UILabel *message;
+
+@property (nonatomic, weak) IBOutlet UIButton *keepPlaying;
+
+@property (nonatomic, weak) IBOutlet UIButton *restartGame;
+
 @end
